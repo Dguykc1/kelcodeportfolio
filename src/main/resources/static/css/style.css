@@ -136,14 +136,16 @@
     
 }
 
-/* about section styling */
-section{
+/* all similar content styling */
+section {
     padding: 100px 0;
 }
-.about{
+/* about section styling */
+
+.about, .services{
     font-family:'Poppins',sans-serif ;
 }
-.about .title{
+section .title{
     position:relative;
     text-align: center;
     font-size: 40px;
@@ -152,7 +154,7 @@ section{
     font-weight: 500;
     font-family: 'Ubuntu',sans-serif;
 }
-.about .title::before{
+section .title::before{
     content: "";
     position: absolute;
     height: 3px;
@@ -162,7 +164,7 @@ section{
     width: 180px;
     transform: translateX(-50%);
 }
-.about .title::after {
+section .title::after {
     content: "who i am";
     position: absolute;
     bottom: -12px;
@@ -172,7 +174,10 @@ section{
     background: white;
     transform: translateX(-50%);
 }
-.about .about-content{
+.about .title::after {
+content: "Who I am";
+}
+.about .about-content, .services .serv-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -217,6 +222,27 @@ width:45% ;
     color: crimson;
     background: none;
 }
+
+/* service section styling */
+.services{
+    background-color: black;
+    color: white;
+}
+.services .title::before {
+background: #fff;
+}
+.services .title::after{
+    background:black ;
+content: "What I provide";
+}
+.services .serv-content .card{
+
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+}
+
 @media(max-width:1300px) {
     .home .max-width {
         margin-left: 0px;
