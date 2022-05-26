@@ -17,7 +17,7 @@
             </div>
             <ul class="menu">
                 <li> <a href="">Home</a></li>
-                <li> <a href="">About</a></li>
+                <li> <a th:href="@{'#about'}">About</a></li>
                 <li><a href="">Services</a> </li>
                 <li><a href="">Projects</a></li>
                 <li><a href="">Skills</a> </li>
@@ -38,25 +38,28 @@
                 <div class="text-1">Hello, My name is</div>
                 <div class="text-2">Christian Kelechi Eze</div>
                 <div class="text-3">And I am a <span>Java Full Stack Web developer</span> </div>
+                <a href="#">Hire me</a>
             </div>
         </div>
     </section>
-    <p>I am passionate java full stack web developer with wide experience in java technologies echo system, such as Java
-        swing, Java Fx and Spring Boot Frameworks</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, ducimus? Debitis qui ea error! Ea sunt atque
-        fuga perspiciatis numquam quam? Veniam facilis minus dolorem vitae rem accusantium excepturi, officia nostrum
-        soluta est earum impedit iure beatae? Corrupti nihil nulla alias obcaecati, quia architecto in minus mollitia
-        dolor reprehenderit, quidem hic laudantium eligendi odio velit, ipsum officiis similique libero adipisci!
-        Aspernatur hic cupiditate accusantium quisquam eius minima eaque sequi harum at incidunt! Neque illo at
-        excepturi laudantium! Maiores ab nobis mollitia officia, doloremque tempora dolorem quibusdam et impedit placeat
-        error deleniti sint magni fugit, natus deserunt voluptatum sed reprehenderit accusamus id vel modi a iure
-        voluptatibus? Quos corporis ducimus recusandae, repellat quis eius voluptatibus accusamus fugiat debitis nihil
-        optio fugit ratione alias id fuga modi perspiciatis placeat incidunt, aliquam expedita natus? Maiores vero quos
-        odio id. Ducimus omnis adipisci veniam exercitationem at porro similique id officiis facere autem ex minus
-        possimus architecto facilis ab amet ratione dolor distinctio, eligendi sapiente expedita esse culpa mollitia
-        vitae! Saepe, consequuntur architecto quo, dolorem id mollitia fuga aperiam iure cupiditate quas odio. Vero
-        consequatur nulla tempora iste ducimus commodi, corporis obcaecati tenetur, ipsam iure eum illo et praesentium
-        adipisci quos fugiat eos, esse sit!</p>
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+               <div class="column left">
+                   <img src="images/kelechiimage.jpg" alt="">
+               </div> 
+               <div class="column right">
+                   <div class="text">
+                       I'm Christian Kelechi Eze and I'm a <span>Java Full Stack Developer</span>
+                   </div>
+                   <p>I specialize in implementation of web applications with java technologies such as Spring Boot  and Destop app technlology such as JavaFx</p>
+                   <a href="#">Download CV</a>
+               </div>
+            </div>
+        </div>
+    </section>
         <script th:src="@{'/js/jq.js'}"></script>
     <script th:src="@{'/js/script.js'}"></script>
     <script th:src="@{'/js/fontawesome.min.js'}"></script>
@@ -64,4 +67,4 @@
 </body>
 
 </html>
-<!-- stopped at 28:00 of portfolio -->
+<!-- stopped at 46:04 of portfolio -->
