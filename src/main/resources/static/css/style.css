@@ -401,6 +401,13 @@ border-color: #fff;
   text-align: center;  
   margin-top: 20px;
 }
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+}
 
 
 
