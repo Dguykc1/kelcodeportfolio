@@ -77,7 +77,7 @@ html{
     background: url("/images/kcimage.JPG");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 150vh;
+    height: 100vh;
 
 background-origin: content-box;
     font-size: 2rem;
@@ -688,7 +688,19 @@ width: 100%;
             /* width: calc(50% - 10px); */
             margin-bottom: 20px;
         }
-
+        .home {
+            display: flex;
+            background: url("/images/kcimage.JPG");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        
+        background-origin: content-box;
+            font-size: 2rem;
+            color: rgb(33, 93, 172);
+            min-height: 500px;
+            font-family: 'Ubuntu', sans-serif;
+        }
 
     }
 @media(max-width:50px) {
