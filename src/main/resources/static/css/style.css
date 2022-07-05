@@ -74,10 +74,14 @@ html{
 /* home section styling */
 .home {
     display: flex;
-    background: url("/images/kcportfoliobackground.jpg") no-repeat center;
-    height: 100vh;
+    background: url("/images/kcimage.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+
+background-origin: content-box;
     font-size: 2rem;
-    color: black;
+    color: rgb(33, 93, 172);
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
